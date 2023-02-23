@@ -1,0 +1,42 @@
+ALGORITHM tri.algo
+
+PROCEDURE insert_sort(VAR arr : ARRAY_OF INTEGER) 
+
+VAR
+   i, j, key;
+BEGIN
+    FOR i FROM 1 TO n DO
+      IF   (key = arr[i])THEN
+       j = i - 1;
+      END_IF
+    END_FOR
+
+       WHILE (j >= 0 AND arr[j] > key) DO
+           IF (arr[j + 1] = arr[j])THEN
+              j = j - 1;
+           ELSE
+                arr[j + 1] = key;
+            END_IF
+    
+        END_WHILE
+    PROCEDURE insert_sort(VAR arr : ARRAY_OF INTEGER)
+  VAR
+      n;
+  BEGIN
+
+    FOR i FROM 1 TO n DO
+      
+      IF (arr[i] > ment) THEN
+           i := i+1;
+        ELSE
+          arr[i] := ment;
+      END_IF
+    END_FOR
+    return 0;
+ END_PROCEDURE
+ END
+   
+
+  
+
+ 
